@@ -1,0 +1,210 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    /*border-radius: 10px;*/
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+
+}
+
+body {
+    background-color: black;
+
+    font-family: "Poppins Light";
+    color: white;
+}
+
+main {
+    width: 85%;
+    /*height: 200vh;*/
+    margin: auto;
+
+
+}
+
+nav {
+    width: 85%;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  position: fixed;
+}
+
+
+nav img {
+    /*padding: 26px 0;*/
+    width: 119px;
+    padding: 0 0 6px 2px;
+}
+
+nav a {
+    color: #bdbdbd;
+    font-size: 20px;
+}
+
+nav a:nth-child(1) {
+    padding: 0 50px 0 0;
+}
+
+nav a:nth-child(2) {
+    padding: 0 50px 0 0;
+}
+
+nav a:nth-child(3) {
+  color: #ff911a;
+}
+.wrapper {
+    display: flex;
+    font-family: "Poppins ExtraBold";
+}
+.background-img {
+
+    background-image: url("images/header2.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    background-position: top;
+        width: 100%;
+        height:100%
+}
+
+header{
+
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+header h1 {
+    font-family: "Poppins ExtraBold";
+    font-weight: bold;
+    font-size: 95px;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+header hr {
+    background-color: #d49a2d;
+    margin: 60px 0;
+    width: 25%;
+    height: 13px;
+    left: 0;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+}
+
+header div{
+
+}
+
+.buttons {
+    margin: 160px 0 0 0;
+}
+.buttons button {
+    font-family: "Poppins ExtraBold";
+    border: none;
+    background-color: #d49a2d;
+    padding: 2px 115px;
+    margin: 0 70px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.buttons a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-container {
+    margin: 20px 0 0 0;
+}
+
+
+.topics-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.topics-section div{
+    width: 35%;
+    padding: 110px 0;
+}
+
+.topics-section h1{
+    font-family: "Poppins ExtraBold";
+    color: #ff911a;
+    font-size: 51px;
+    font-weight: bold;
+}
+
+.topics-section p{
+    padding: 30px 0 54px 0;
+    font-size: 21px;
+}
+
+.topics-section a {
+    font-family: "Poppins ExtraBold";
+    font-size: 30px;
+}
+
+.footer-section {
+    background-image: url("images/concrete.png");
+    background-position: top;
+    background-size: cover;
+
+}
+.footer-section hr{
+    width: 30%;
+    margin: 70px auto 0 auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+    opacity: 0.5;
+
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container img {
+    width: 40%;
+}
+
+.footer-container div:nth-child(1){
+  width: 30%;padding: 160px 0;
+}
+.footer-container div:nth-child(2){
+    width: 45%;
+    padding: 160px 0;
+    margin: 5px 0 0 0;
+}
+.footer-container p {
+    font-size: 18px;
+}
+.footer-container span {
+    color: #ff911a;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+.icons i {
+    margin: 30px 0;
+}
